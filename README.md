@@ -7,3 +7,5 @@
 * [Day 3](Day03.ipynb). Ok, today I really needed regular expression! I learned `re.finditer` and that basically solved most of the problem! Part 2 came almost for free from Part1.
 
 * [Day 4](Day04.ipynb). More `regex` to parse the input, `set` intersections to process card value overlaps.
+
+* [Day 5](Day05.ipynb). First use of a `class` of the year. Part 1 relatively easy, Part 2 introduces the usual explosion of the phase space that makes brute forcing the solution not a viable option (even if it's still feasible with `pypy`. Using ranges is the way to go, and instead of coding my own class with overlap removal and slicing methods, I used the nice `IntervalTree` package!
