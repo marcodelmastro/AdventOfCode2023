@@ -11,3 +11,5 @@
 * [Day 5](Day05.ipynb). First use of a `class` of the year. Part 1 relatively easy, Part 2 introduces the usual explosion of the phase space that makes brute forcing the solution not a viable option (even if it's still feasible with `pypy`. Using ranges is the way to go, and instead of coding my own class with overlap removal and slicing methods, I used the nice `IntervalTree` package!
 
 * [Day 6](Day06.ipynb). Part 1 can be solved with a simple scan, but there's an analytical solution that works perfectly for both parts.
+
+* [Day 7](Day07.ipynb). Custom `compare` functions to be used with sorting algorithm using `functools.cmp_to_key()`.
