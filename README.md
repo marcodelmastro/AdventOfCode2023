@@ -13,3 +13,5 @@
 * [Day 6](Day06.ipynb). Part 1 can be solved with a simple scan, but there's an analytical solution that works perfectly for both parts.
 
 * [Day 7](Day07.ipynb). Custom `compare` functions to be used with sorting algorithm using `functools.cmp_to_key()`.
+
+* [Day 8](Day08.ipynb). Simple graph navigation for Part 1, the usual "large number" spin for Part 2, can be easlity solved computing LCM of various path periods in graph.
