@@ -15,3 +15,5 @@
 * [Day 7](Day07.ipynb). Custom `compare` functions to be used with sorting algorithm using `functools.cmp_to_key()`.
 
 * [Day 8](Day08.ipynb). Simple graph navigation for Part 1, the usual "large number" spin for Part 2, can be easlity solved computing LCM of various path periods in graph.
+
+* [Day 9](Day09.ipynb). `np.diff` to process the lists in a loop, `np.any` to stop it, some simple manupolation to get the results.
