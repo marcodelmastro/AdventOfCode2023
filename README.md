@@ -19,3 +19,5 @@
 * [Day 9](Day09.ipynb). `np.diff` to process the lists in a loop, `np.any` to stop it, some simple manupolation to get the results.
 
 * [Day 10](Day10.ipynb). First map of 2023! Interesting twist for Part 2, solved by expading the map with 3x3 pipe tiles and flood-filling algorithm.
+
+* [Day 11](Day11.ipynb). `np.insert()` directly on original map for Part 1, computing new coordinates for Part 2. 
