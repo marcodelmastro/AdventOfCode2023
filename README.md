@@ -21,3 +21,5 @@
 * [Day 10](Day10.ipynb). First map of 2023! Interesting twist for Part 2, solved by expading the map with 3x3 pipe tiles and flood-filling algorithm.
 
 * [Day 11](Day11.ipynb). `np.insert()` directly on original map for Part 1, computing new coordinates for Part 2. 
+
+* [Day 12](Day12.ipynb). Brute force for Part 1, recursion and memoization for Part 2.
