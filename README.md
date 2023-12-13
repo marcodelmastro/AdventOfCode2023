@@ -23,3 +23,5 @@
 * [Day 11](Day11.ipynb). `np.insert()` directly on original map for Part 1, computing new coordinates for Part 2. 
 
 * [Day 12](Day12.ipynb). Brute force for Part 1, recursion and memoization for Part 2.
+
+* [Day 13](Day13.ipynb). Matrix manipulation with `numpy`. Part 2 is almost straightforward, but original results from Part 1 need to be ignored (and off-by-one errors are always behind the corner.
