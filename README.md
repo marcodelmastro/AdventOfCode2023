@@ -14,14 +14,16 @@
 
 * [Day 7](Day07.ipynb). Custom `compare` functions to be used with sorting algorithm using `functools.cmp_to_key()`.
 
-* [Day 8](Day08.ipynb). Simple graph navigation for Part 1, the usual "large number" spin for Part 2, can be easlity solved computing LCM of various path periods in graph.
+* [Day 8](Day08.ipynb). Simple graph navigation for Part 1, the usual "large number" spin for Part 2, can be easily solved by computing LCM of various path periods in graph.
 
-* [Day 9](Day09.ipynb). `np.diff` to process the lists in a loop, `np.any` to stop it, some simple manupolation to get the results.
+* [Day 9](Day09.ipynb). `np.diff` to process the lists in a loop, `np.any` to stop it, some simple manipulation to get the results.
 
-* [Day 10](Day10.ipynb). First map of 2023! Interesting twist for Part 2, solved by expading the map with 3x3 pipe tiles and flood-filling algorithm.
+* [Day 10](Day10.ipynb). First map of 2023! Interesting twist for Part 2, solved by expanding the map with 3x3 pipe tiles and flood-filling algorithm.
 
 * [Day 11](Day11.ipynb). `np.insert()` directly on original map for Part 1, computing new coordinates for Part 2. 
 
 * [Day 12](Day12.ipynb). Brute force for Part 1, recursion and memoization for Part 2.
 
 * [Day 13](Day13.ipynb). Matrix manipulation with `numpy`. Part 2 is almost straightforward, but original results from Part 1 need to be ignored (and off-by-one errors are always behind the corner.
+
+* [Day 13](Day13.ipynb). More matrix manipulation with `numpy`, using `np.rot90` to recycle the tilting function for different directions. As it often happens in AOC, Part 2 can be solved by looking for a period in the results of the repetitive operation, and extrapolate to the final result accordingly. Using `hash(np.array.tobyte())` to store intermediate results in a diction lay and quickly check for repetitions.
