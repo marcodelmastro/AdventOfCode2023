@@ -29,3 +29,5 @@
 * [Day 14](Day14.ipynb). More matrix manipulation with `numpy`, using `np.rot90` to recycle the tilting function for different directions. As it often happens in AOC, Part 2 can be solved by looking for a period in the results of the repetitive operation, and extrapolate to the final result accordingly. Using `hash(np.array.tobyte())` to store intermediate results in a diction lay and quickly check for repetitions.
 
 * [Day 15](Day15.ipynb). Custom hashing function (and I was initially expecting Part 2 to require hashing very long string, and to have to optimize the hashing function...), then registry manipulation according to addresses and instructions.
+
+* [Day 16](Day16.ipynb). First use of a `queue` of the year, visited conditions to be checked against position and entry direction to avoid infinite loops. Part 2 trivial once part 1 was working.
