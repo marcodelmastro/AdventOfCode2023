@@ -32,4 +32,6 @@
 
 * [Day 16](Day16.ipynb). First use of a `queue` of the year, visited conditions to be checked against position and entry direction to avoid infinite loops. Part 2 trivial once part 1 was working.
 
-* [Day 17](Day17.ipynb). Dijkstra with a spin, similar to AOC2021 Day 15. The 'spin' actually drove me crazy for quite a while (a `continue` instead of a `pass` that took the keen eyes of a Redditor to debug). Once Part 1 was working, part 2 required adding literaly 2 lines of code.
+* [Day 17](Day17.ipynb). Dijkstra with a spin, similar to AOC2021 Day 15. The 'spin' actually drove me crazy for quite a while (a `continue` instead of a `pass` that took the keen eyes of a Redditor to debug). Once Part 1 was working, part 2 required adding literally 2 lines of code.
+
+* [Day 18](Day18.ipynb). Flood-filling grid for Part 1, shoelace's formula + perimeter correction for Part 2.
