@@ -39,3 +39,5 @@
 * [Day 19](Day19.ipynb). Simple graph navigation for Part 1. Part 2 solved by implementing a recursive counting of valid intervals satisfying workflow rules, and computing combinations as product.
 
 * [Day 20](Day20.ipynb). Module network implement as dictionary of a dedicated class, pulse exchanges simulated with a queue. I noticed the unconnected `nx` module in Part 1, it turned out to be the center of Part 2: we are in the usual situation of very large numbers (no brute-forcing), and need to reverse-engineering the network to find patterns (in this case, periods in the inputs to the `nx` module firing the correct pulses).
+
+* [Day 21](Day21.ipynb). Simple BFS evolution for Part 1. Infinite repeating grid for Part 2, analysis of the pattern to solve a huge number of steps, counting plots in all possible grid configurations for the evolving pattern, and the numbers of grid configurations.
