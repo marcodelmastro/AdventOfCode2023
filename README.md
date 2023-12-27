@@ -41,3 +41,11 @@
 * [Day 20](Day20.ipynb). Module network implement as dictionary of a dedicated class, pulse exchanges simulated with a queue. I noticed the unconnected `nx` module in Part 1, it turned out to be the center of Part 2: we are in the usual situation of very large numbers (no brute-forcing), and need to reverse-engineering the network to find patterns (in this case, periods in the inputs to the `nx` module firing the correct pulses).
 
 * [Day 21](Day21.ipynb). Simple BFS evolution for Part 1. Infinite repeating grid for Part 2, analysis of the pattern to solve a huge number of steps, counting plots in all possible grid configurations for the evolving pattern, and the numbers of grid configurations.
+
+* [Day 22](Day22.ipynb). **TODO**
+
+* [Day 23](Day23.ipynb). BFS to find all paths (and thus longest one) for part 1, implementing slopes as a single possible direction. Simplified graph by mapping all crossing points and their connections and distances for Part 2, and than passed the graph to `NetworkX` to find all paths becouse I like quick and lazy solutions. Solved after dinner in Turin in the evening of December 23, after having traveled to Italy for the Christmas vacations (and happy 16th birthday to Giulia!)
+
+* [Day 24](Day24.ipynb). Simple dynamics calculation (linear extrapolation of trajectory). **Part 2 TODO**
+
+* [Day 25](Day25.ipynb). `NetworkX` FTW! Drawing the graph was enough to see the connections to remove, the rest came with a few lines of code before the rest of the family got up to celebrate Christmas and exchange gifts!
