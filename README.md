@@ -46,6 +46,6 @@
 
 * [Day 23](Day23.ipynb). BFS to find all paths (and thus longest one) for part 1, implementing slopes as a single possible direction. Simplified graph by mapping all crossing points and their connections and distances for Part 2, and than passed the graph to `NetworkX` to find all paths becouse I like quick and lazy solutions. Solved after dinner in Turin in the evening of December 23, after having traveled to Italy for the Christmas vacations (and happy 16th birthday to Giulia!)
 
-* [Day 24](Day24.ipynb). Simple dynamics calculation (linear extrapolation of trajectory). **Part 2 TODO**
+* [Day 24](Day24.ipynb). Simple dynamics calculation (linear extrapolation of trajectory) for Part 1. Analytic solution for Part 2 with a system of equations with 6 unknowns that can be solved considering only 3 hailstones (the system would otherwise be overconstrained, even if I imagine the input is well behaved and any combination of 3 hailstones would work); system solved with `sympy`.
 
 * [Day 25](Day25.ipynb). `NetworkX` FTW! Drawing the graph was enough to see the connections to remove, the rest came with a few lines of code before the rest of the family got up to celebrate Christmas and exchange gifts!
