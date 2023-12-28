@@ -42,7 +42,7 @@
 
 * [Day 21](Day21.ipynb). Simple BFS evolution for Part 1. Infinite repeating grid for Part 2, analysis of the pattern to solve a huge number of steps, counting plots in all possible grid configurations for the evolving pattern, and the numbers of grid configurations.
 
-* [Day 22](Day22.ipynb). **TODO**
+* [Day 22](Day22.ipynb). Mapping space as a dictionary, saving connections between adjacent blocks to quickly solve Part 1.
 
 * [Day 23](Day23.ipynb). BFS to find all paths (and thus longest one) for part 1, implementing slopes as a single possible direction. Simplified graph by mapping all crossing points and their connections and distances for Part 2, and than passed the graph to `NetworkX` to find all paths becouse I like quick and lazy solutions. Solved after dinner in Turin in the evening of December 23, after having traveled to Italy for the Christmas vacations (and happy 16th birthday to Giulia!)
 
