@@ -49,3 +49,7 @@
 * [Day 24](Day24.ipynb). Simple dynamics calculation (linear extrapolation of trajectory) for Part 1. Analytic solution for Part 2 with a system of equations with 6 unknowns that can be solved considering only 3 hailstones (the system would otherwise be overconstrained, even if I imagine the input is well behaved and any combination of 3 hailstones would work); system solved with `sympy`.
 
 * [Day 25](Day25.ipynb). `NetworkX` FTW! Drawing the graph was enough to see the connections to remove, the rest came with a few lines of code before the rest of the family got up to celebrate Christmas and exchange gifts!
+
+![50 stars](./AOC2023_50stars.jpg "50 stars")
+
+![Floating islands](./AOC2023_FloatingIslands.jpg "Floating islands")
